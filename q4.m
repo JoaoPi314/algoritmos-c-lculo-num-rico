@@ -1,10 +1,10 @@
-%encontrar todas as ra�zes de um polinomio
+%encontrar todas as raízes de um polinomio
 
-grau = input('Digite o grau do polin�mio: ');
+grau = input('Digite o grau do polinômio: ');
 A = [];
-for c = 1:grau+1
-  A(c) = input('Digite o coeficiente: ');  
+for i = 1:grau+1
+  A(i) = input('Digite o coeficiente: ');  
 endfor
 
-Raizes = roots(A);
-Raizes
+raizes = roots(A) %se você simplesmente tirar o ; já imprime
+                  %colocando o nome da variável no padrão minúsculo
