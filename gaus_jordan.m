@@ -1,4 +1,4 @@
-%método da eliminaçao de Gauss
+%método da eliminaçao de Gauss - jordan
 
 clear all; clc; clear;
 
