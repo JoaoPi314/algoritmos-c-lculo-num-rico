@@ -1,10 +1,13 @@
 %método de eliminação de gauss-jordan para calcular inversa
 
-A = [3, 5; 2, -1];
+A = [107, -21, 17, 13;
+      21, 110, 10, 20;
+      16,  17, 74,  8;
+     -19,   8, 17, 90];
 
-I = [1, 0; 0, 1];
+I = eye(4,4);
 
-n = 2;
+n = 4;
 
 for j = 1:n
   for i = 1:n
